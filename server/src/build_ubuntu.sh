@@ -10,6 +10,10 @@ build() {
     apt-get -y install cmake
     apt-get -y install libuu-dev 
     apt-get -y install libcurl4-openssl-dev
+    apt install libssl-dev -y
+    apt install unzip -y
+    apt install mysql-client -y
+    apt install libmysqlclient-dev -y
 #    apt-get -y install openssl-devel
     apt-get -y  install libcurl-dev 
     apt-get -y  install liblog4cxx10-dev libprotobuf-lite8 libhiredis-dev protobuf-compiler cmake g++  libprotobuf-dev
